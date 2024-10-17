@@ -24,6 +24,6 @@ changeThemeBtn.addEventListener("change", function (){
 
 
     if (document.body.classList.contains("dark")){
-        localStorage.setItem("dark",1);
+        localStorage.setItem("dark",1); //Este número 1 , ele mesmo criou para ter um valor salvo, verifica no f12, application, na lateral  - local storage e clica no meu endereço. qdo tiver dark vai aparecer o 1.
     }
 });
